@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shalini Bakes - Cake Store</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles go here (if any) */
+    body {
+      background-color: white;
+    }
+
+    .banner {
+      background-image: url("banner_image.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: violet;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+    }
+
+    .cakes-section {
+      text-align: center;
+      background-color: babyPink;
+    }
+
+    .cakes-section img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .delivery-section {
+      text-align: center;
+      background-color: white;
+      color: violet;
+    }
+
+    .contact-section {
+      text-align: center;
+      background-color: babyPink;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">cake webpage banner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#cakes">Cakes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#delivery">Delivery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <header class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Welcome to Shalini Bakes</h1>
+          <p>We create delightful cakes for every occasion</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cakes Section -->
+  <section id="cakes" class="cakes-section py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Add cake art pictures here -->
+        <div class="col-md-4 mb-4">
+          <img src="https://www.brides.com/thmb/G4mntbTYl7uCGz0d-50U5qyXKps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aef-a1eb0550df2645e581844a61585422ac-a1fe8db5082c4bdcb0bb6da5e7cf688a.jpg" alt="Cake 1" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="https://funcakes.com/content/uploads/2021/02/Red-Velvet-Cake-with-Fruit-960x720-c-default.jpg" alt="Cake 2" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="https://butterry.com/image/cache/catalog/buttery/sq-snicker-chocolate-cake0028choc-AA-1000x1000.jpg" alt="Cake 3" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Section -->
+  <section id="delivery" class="delivery-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Delivery in Bangalore Only</h2>
+          <p>We deliver our delicious cakes across Bangalore</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Contact Us</h2>
+          <p>For orders and inquiries, please reach out to us:</p>
+          <!-- Add the radio button -->
+          <label class="radio-label">
+            <input type="radio" name="contactOption" id="emailOption" checked>
+            Email: <a href="mailto:info@shalinibakes.com">info@shalinibakes.com</a>
+          </label>
+          <br>
+          <label class="radio-label">
+            <input type="radio" name="contactOption" id="phoneOption">
+            Phone: <a href="#" class="show-phone">9876543678</a>
+          </label>
+          <!-- Phone number display -->
+          <p class="phone-number">Phone: 9876543678</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Add Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
